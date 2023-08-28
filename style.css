@@ -1,0 +1,497 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+font-family:  Lato,arial;;
+}
+.header{
+    background-color:#EF5862 ;
+    color:rgb(255, 255, 255) ;
+}
+.nav-item .nav-link{
+    color: black;
+    margin:0px 10px ;
+
+}
+.nav-item .nav-link:hover{
+    color: #EF5862;
+}
+
+
+.body-part{
+    background-color: rgb(251, 246, 240);
+}
+.home-banner-bg{
+    background-color:#EF5862 ; 
+    padding:30px 10px ;
+}
+.list-1 {
+    text-decoration: none;
+    color: white;
+    /* text-align: center; */
+}
+/* .list{
+    border:1px solid rgb(255, 255, 255) ;
+} */
+.list a{
+    color:white ;
+    background-color:#EF5862 ; 
+    text-decoration: none;
+}
+
+.list :hover{
+    border:1px solid rgb(255, 255, 255) ;
+    color: black;
+    padding: 5px;
+    background-color:white ;
+}
+@media only screen and (max-width:767px){
+   .home-banner-bg{
+    display:none ;
+   }
+}
+.social-icon a{
+    text-decoration: none;
+    color:white ;
+}
+.Diseases h1{
+   padding:50px  0px;
+   text-align: center;
+   font-weight: 600;
+}
+.Diseases-list{
+background-color:#fff1d9;
+text-align: center;
+padding:10px ;
+/* max-width:180px ; */
+}
+.Diseases a{
+    text-decoration: none;
+    color: black;
+}
+
+@media only screen and (max-width:767px){
+    .Diseases h1{
+        padding:10px 0px ;
+    }   
+}
+.intro h1{
+    text-align: center;
+    padding-top:40px ;
+    font-weight: 600;
+    padding-bottom:30px ;
+}
+.intro p{
+    text-align: center;
+    color:grey ;
+    padding-bottom:40px ;
+}
+.card h5{
+    color: #EF5862;
+    font-size:25px ;
+}
+.brand p{
+    font-size:25px ;
+    color:rgb(151, 150, 150) ;
+    font-weight:100;
+    text-align: center;
+    padding-bottom: 40px;
+}
+.brand h1{
+    text-align: center;
+    padding-top:50px ;
+    font-weight: 600;
+}
+
+.card-body1 a{
+    text-decoration: none;
+  
+}
+.card-body1{
+    text-align: center;
+    /* font-size:20px ; */
+    /* background-color: #EF5862; */
+    padding: 10px 0px;
+}
+@media only screen and (max-width:767px){
+    .card{
+        margin: 0px auto;
+    }
+    .intro h1{
+         padding-top:10px ;
+        padding-bottom:10px ;
+    }
+    .Consultation h1{
+        padding-top:10px ;
+    }
+}
+.Consultation{
+    background-color:#fef5e5 ;
+    
+}
+.Consultation h1{
+    text-align: center;
+    padding-top:40px ;
+    font-weight: 600;
+    padding-bottom:30px ;
+}
+.testimonial{
+padding-bottom:50px;
+}
+form {
+    max-width: 300px;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background: #f3f6f5;
+    border-radius: 8px;
+  }
+  
+  h1 {
+    margin: 0 0 30px 0;
+    text-align: center;
+  }
+  
+  input[type="text"],
+  input[type="password"],
+  input[type="date"],
+  input[type="datetime"],
+  input[type="email"],
+  input[type="number"],
+  input[type="search"],
+  input[type="tel"],
+  input[type="time"],
+  input[type="url"],
+  textarea,
+  select {
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    font-size: 16px;
+    height: auto;
+    margin: auto;
+    outline: 0;
+    padding: 8px;
+    width: 100%;
+    background-color: #c7cecf;
+    color: black;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
+    margin-bottom: 30px;
+  }
+  
+  input[type="radio"],
+  input[type="checkbox"] {
+    margin: 0 4px 8px 0;
+  }
+  
+  select {
+    padding: 6px;
+    height: 32px;
+    border-radius: 2px;
+  }
+  
+  .button2 {
+    padding: 19px 39px 18px 39px;
+    color: #FFF;
+    background-color:#EF5862  ;
+    font-size: 18px;
+    text-align: center;
+    font-style: normal;
+    border-radius: 5px;
+    width: 100%;
+    border: 1px solid #EF5862 ;
+    border-width: 1px 1px 3px;
+    box-shadow: 0 -1px 0 rgba(255, 255, 255, 0.1) inset;
+    margin-bottom: 10px;
+  }
+  
+  fieldset {
+    margin-bottom: 30px;
+    border: none;
+  }
+  
+  legend {
+    /* font-size: 1.4em; */
+    text-align: center;
+    font-weight: 600;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+    color: #d50c0f;
+  }
+  
+  label.light {
+    font-weight: 300;
+    display: inline;
+  }
+  
+  .number {
+    background-color: #0c60d5;
+    color: #fff;
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    font-size: 0.8em;
+    margin-right: 4px;
+    line-height: 30px;
+    text-align: center;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.2);
+    border-radius: 100%;
+  }
+  
+  
+  
+  form {
+    max-width: 380px;
+  }
+  
+  .term a {
+    color: white;
+    text-decoration: none;
+  
+  
+  }
+  .testimonial h1{
+    padding-top: 60px;
+    text-align: center;
+    font-weight: 600;
+  }
+  .testimonial p{
+    color:grey ;
+    text-align: center;
+    padding-bottom:30px;
+  }
+  
+  .footer {
+    padding: 30px 0px;
+    background-color: rgb(255, 255, 255);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+.social{
+    background-color: #EF5862;
+    color:white ;
+    padding:10px 0px; 
+}
+.fa-brands{
+    color:white ;
+    padding: 0px 6px; 
+}
+.btn{
+    border: 1px solid black;
+}
+.footer a{
+    text-decoration: none;
+    color: #000000;
+}
+.footer h6{
+    padding:10px 0px ;
+}
+@media only screen and (max-width:767px){
+    .carousel-control-next-icon,
+  .carousel-control-prev-icon {
+    display: none !important;
+  }
+  .carousel-item img{
+ height:210px !important ;
+} 
+ .testimonial h1{
+    padding-top: 40px;
+ }
+    
+}
+ .carousel-item img{
+    height:552px ;
+}
+.footer{
+    background-color:#f8f3ea;
+}
+/* .btn1{
+    width: 100%;
+    
+    border:1px solid  #EF5862;
+    padding:5px;
+} */
+.cart-button {
+	position: relative;
+	padding: 10px;
+	width: 200px;
+	height:40px;
+	border: 0;
+	border-radius: 10px;
+	background-color:#EF5862;
+	outline: none;
+	cursor: pointer;
+	color: #fff;
+	transition: .3s ease-in-out;
+	overflow: hidden;
+}
+.cart-button:hover {
+	background-color:#EF5862;
+}
+.cart-button:active {
+	transform: scale(.9);
+}
+
+.cart-button .fa-shopping-cart {
+	position: absolute;
+	z-index: 2;
+	top: 50%;
+	left: -10%;
+	font-size: 2em;
+	transform: translate(-50%,-50%);
+}
+.cart-button .fa-box {
+	position: absolute;
+	z-index: 3;
+	top: -20%;
+	left: 52%;
+	font-size: 1.2em;
+	transform: translate(-50%,-50%);
+}
+.cart-button span {
+	position: absolute;
+	z-index: 3;
+	left: 50%;
+	top: 50%;
+	font-size: 1.2em;
+	color: #fff;
+	transform: translate(-50%,-50%);
+}
+.cart-button span.add-to-cart {
+	opacity: 1;
+}
+.cart-button span.added {
+	opacity: 0;
+}
+
+.cart-button.clicked .fa-shopping-cart {
+	animation: cart 1.5s ease-in-out forwards;
+}
+.cart-button.clicked .fa-box {
+	animation: box 1.5s ease-in-out forwards;
+}
+.cart-button.clicked span.add-to-cart {
+	animation: txt1 1.5s ease-in-out forwards;
+}
+.cart-button.clicked span.added {
+	animation: txt2 1.5s ease-in-out forwards;
+}
+@keyframes cart {
+	0% {
+		left: -10%;
+	}
+	40%, 60% {
+		left: 50%;
+	}
+	100% {
+		left: 110%;
+	}
+}
+@keyframes box {
+	0%, 40% {
+		top: -20%;
+	}
+	60% {
+		top: 40%;
+		left: 52%;
+	}
+	100% {
+		top: 40%;
+		left: 112%;
+	}
+}
+@keyframes txt1 {
+	0% {
+		opacity: 1;
+	}
+	20%, 100% {
+		opacity: 0;
+	}
+}
+@keyframes txt2 {
+	0%, 80% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+.youtube-link {
+	position: fixed;
+	left: 20px;
+	bottom: 20px;
+	color: #000;
+	text-decoration: none;
+	font-size: 12px;
+}
+/* whats aap  */
+.btn-whatsapp-pulse {
+	background: #25d366;
+	color: white;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	font-size: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 0;
+	height: 0;
+	padding: 35px;
+	text-decoration: none;
+	border-radius: 50%;
+	animation-name: pulse;
+	animation-duration: 1.5s;
+	animation-timing-function: ease-out;
+	animation-iteration-count: infinite;
+}
+.whatsaap a{
+    color:white ;
+}
+
+@keyframes pulse {
+	0% {
+		box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.5);
+	}
+	80% {
+		box-shadow: 0 0 0 14px rgba(37, 211, 102, 0);
+	}
+}
+
+.btn-whatsapp-pulse-border {
+	bottom:20px;
+	right: 20px;
+	animation-play-state: paused;
+}
+
+.btn-whatsapp-pulse-border::before {
+	content: "";
+	position: absolute;
+	border-radius: 50%;
+	padding: 25px;
+	border: 5px solid #25d366;
+	opacity: 0.75;
+	animation-name: pulse-border;
+	animation-duration: 1.5s;
+	animation-timing-function: ease-out;
+	animation-iteration-count: infinite;
+}
+
+@keyframes pulse-border {
+	0% {
+		padding: 25px;
+		opacity: 0.75;
+	}
+	75% {
+		padding: 50px;
+		opacity: 0;
+	}
+	100% {
+		opacity: 0;
+	}
+}
